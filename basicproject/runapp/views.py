@@ -5,4 +5,4 @@ import datetime
 # Create your views here.
 
 def date(request):
-    return HttpResponse("<h1>Hello sir the time is  "+str(datetime.datetime.now()))
+    return render(request,"runapp/first.html")
